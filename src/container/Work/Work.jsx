@@ -9,6 +9,15 @@ import "./Work.scss";
 const Work = () => {
   const worksData = [
     {
+      title: "COVID-19 Tracker",
+      description:
+        "An app built with React, ChartJS, MUI and A Covid tracking API",
+      projectLink: "https://babalwa01.github.io/covid19-statistics/",
+      codeLink: "https://github.com/Babalwa01/covid19-statistics",
+      imgUrl: images.about02,
+      tags: ["React JS", "All"],
+    },
+    {
       title: "Food ordering App",
       description: "A modern UI Design built with Figma",
       projectLink:
@@ -17,6 +26,15 @@ const Work = () => {
         "https://www.figma.com/file/ChL0kuCyHiqkgIeuaZLMBO/Food-ordering-App?node-id=0%3A1",
       imgUrl: images.about01,
       tags: ["UI Design", "All"],
+    },
+    {
+      title: "Tilde learning platform",
+      description:
+        "I contribute to an open source learning platform created by Umuzi.org",
+      projectLink: "https://github.com/Umuzi-org/Tilde",
+      codeLink: "https://github.com/Umuzi-org/Tilde",
+      imgUrl: images.about02,
+      tags: ["Open Source", "All"],
     },
     {
       title: "Memory Game",
@@ -44,6 +62,7 @@ const Work = () => {
   useEffect(() => {
     setWorks(worksData);
     setFilterWork(worksData);
+    // eslint-disable-next-line
   }, []);
 
   const handleWorkFilter = (item) => {
@@ -67,19 +86,24 @@ const Work = () => {
         My Creative <span>Portfolio</span>
       </h2>
       <div className="app__work-filter">
-        {["UI Design", "Web App", "Website", "React JS", "All"].map(
-          (item, index) => (
-            <div
-              key={index}
-              onClick={() => handleWorkFilter(item)}
-              className={`app__work-filter-item app__flex p-text ${
-                activeFilter === item ? "item-active" : ""
-              }`}
-            >
-              {item}
-            </div>
-          )
-        )}
+        {[
+          "UI Design",
+          "Web App",
+          "Website",
+          "React JS",
+          "Open Source",
+          "All",
+        ].map((item, index) => (
+          <div
+            key={index}
+            onClick={() => handleWorkFilter(item)}
+            className={`app__work-filter-item app__flex p-text ${
+              activeFilter === item ? "item-active" : ""
+            }`}
+          >
+            {item}
+          </div>
+        ))}
       </div>
       <motion.div
         animate={animateCard}
