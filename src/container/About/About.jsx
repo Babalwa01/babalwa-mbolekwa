@@ -19,12 +19,13 @@ const abouts = [
   },
   {
     title: "Open Source Contribution",
-    description: "I like to contribute to open source projects.",
+    description:
+      "I enjoy contributing to open source projects and sharing knowledge.",
     imgUrl: images.about03,
   },
   {
     title: "UI Design",
-    description: "I like to play around with creating UI designs using Figma.",
+    description: "I enjoy creating UI designs using Figma.",
     imgUrl: images.about04,
   },
 ];

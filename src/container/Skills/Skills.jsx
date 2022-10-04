@@ -77,6 +77,10 @@ const Skills = () => {
       name: "Jira",
       icon: images.jira,
     },
+    {
+      name: "APIs",
+      icon: images.api,
+    },
   ];
   const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
