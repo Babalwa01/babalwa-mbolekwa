@@ -6,26 +6,26 @@ import "./About.scss";
 
 const abouts = [
   {
-    title: "Frontend Development",
+    title: "Web Development",
     description:
-      "I've got passion for creating beautiful websites and web applications.",
+      "I've got passion for creating beautiful websites and web applications",
     imgUrl: images.about01,
   },
   {
-    title: "React Development",
+    title: "Frontend Development",
     description:
-      "I build user-facing features consisting of reusable components using React.",
+      "I build user-facing features consisting of reusable components using React",
     imgUrl: images.about02,
   },
   {
     title: "Open Source Contribution",
     description:
-      "I enjoy contributing to open source projects and sharing knowledge.",
+      "I enjoy contributing to open source projects and sharing knowledge",
     imgUrl: images.about03,
   },
   {
     title: "UI Design",
-    description: "I enjoy creating UI designs using Figma.",
+    description: "I enjoy creating UI designs using Figma",
     imgUrl: images.about04,
   },
 ];

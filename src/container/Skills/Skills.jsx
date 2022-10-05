@@ -70,16 +70,28 @@ const Skills = () => {
       icon: images.storybook,
     },
     {
-      name: "Slack",
-      icon: images.slack,
+      name: "APIs",
+      icon: images.api,
+    },
+    {
+      name: "Notion",
+      icon: images.notion,
     },
     {
       name: "Jira",
       icon: images.jira,
     },
     {
-      name: "APIs",
-      icon: images.api,
+      name: "Slack",
+      icon: images.slack,
+    },
+    {
+      name: "Zoom",
+      icon: images.zoom,
+    },
+    {
+      name: "MacOS",
+      icon: images.macOS,
     },
   ];
   const [experience, setExperience] = useState([]);
@@ -88,6 +100,7 @@ const Skills = () => {
   useEffect(() => {
     setExperience(experienceData);
     setSkills(skillsData);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

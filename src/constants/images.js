@@ -20,6 +20,9 @@ import vue from "../assets/vue.png";
 import storybook from "../assets/storybook.png";
 import slack from "../assets/slack.png";
 import jira from "../assets/jira.png";
+import notion from "../assets/notion.png";
+import zoom from "../assets/zoom.png";
+import macOS from "../assets/macOS.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -63,6 +66,9 @@ export default {
   storybook,
   slack,
   jira,
+  notion,
+  zoom,
+  macOS,
   about01,
   about02,
   about03,
