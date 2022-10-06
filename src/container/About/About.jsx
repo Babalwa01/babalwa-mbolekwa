@@ -25,7 +25,8 @@ const abouts = [
   },
   {
     title: "UI Design",
-    description: "I enjoy creating UI designs using Figma",
+    description:
+      "I enjoy creating real websites and apps using Figma UI designs",
     imgUrl: images.about04,
   },
 ];

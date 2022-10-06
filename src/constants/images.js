@@ -29,6 +29,10 @@ import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
+import work01 from "../assets/work01.jpg";
+import work02 from "../assets/work02.jpg";
+import work03 from "../assets/work03.jpg";
+
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
@@ -43,6 +47,7 @@ import spotify from "../assets/spotify.png";
 import babalwa from "../assets/babalwa.png";
 import babalwa01 from "../assets/babalwa01.png";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   email,
   mobile,
@@ -85,4 +90,7 @@ export default {
   spotify,
   babalwa,
   babalwa01,
+  work01,
+  work02,
+  work03,
 };

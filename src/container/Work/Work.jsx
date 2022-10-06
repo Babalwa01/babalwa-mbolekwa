@@ -9,32 +9,40 @@ import "./Work.scss";
 const Work = () => {
   const worksData = [
     {
+      title: "My Portfolio Website v2",
+      description:
+        "A website about my skills, work and experience in Frontend Development which I built using React",
+      projectLink: "https://babalwambolekwa.netlify.app/",
+      codeLink: "https://github.com/Babalwa01/babalwa-mbolekwa",
+      imgUrl: images.work01,
+      tags: ["Website", "All"],
+    },
+    {
+      title: "Restaurant Landing page",
+      description:
+        "(In progress): A restaurant landing page which I am currently building using React",
+      projectLink: "https://babalwambolekwa.netlify.app/",
+      codeLink: "https://github.com/Babalwa01/grooveavenue",
+      imgUrl: images.work02,
+      tags: ["Website", "All"],
+    },
+    {
+      title: "My Portfolio Website v1",
+      description:
+        "A beginner website about my skills, work and experience which I built using HTML, CSS & JavaScript",
+      projectLink: "https://babalwa01.github.io/",
+      codeLink: "https://github.com/Babalwa01/Babalwa01.github.io",
+      imgUrl: images.work01,
+      tags: ["Website", "All"],
+    },
+    {
       title: "COVID-19 Tracker",
       description:
-        "An app built with React, ChartJS, MUI and A Covid tracking API",
+        "An app showing global COVID-19 statistics built with React, ChartJS, Material UI and RapidAPI",
       projectLink: "https://babalwa01.github.io/covid19-statistics/",
       codeLink: "https://github.com/Babalwa01/covid19-statistics",
-      imgUrl: images.about02,
-      tags: ["React JS", "All"],
-    },
-    {
-      title: "Food ordering App",
-      description: "A modern UI Design built with Figma",
-      projectLink:
-        "https://www.figma.com/proto/ChL0kuCyHiqkgIeuaZLMBO/Food-ordering-App?node-id=2%3A2&scaling=scale-down&page-id=0%3A1",
-      codeLink:
-        "https://www.figma.com/file/ChL0kuCyHiqkgIeuaZLMBO/Food-ordering-App?node-id=0%3A1",
-      imgUrl: images.about01,
-      tags: ["UI Design", "All"],
-    },
-    {
-      title: "Tilde learning platform",
-      description:
-        "I contribute to an open source learning platform created by Umuzi.org",
-      projectLink: "https://github.com/Umuzi-org/Tilde",
-      codeLink: "https://github.com/Umuzi-org/Tilde",
-      imgUrl: images.about02,
-      tags: ["Open Source", "All"],
+      imgUrl: images.work03,
+      tags: ["Web App", "All"],
     },
     {
       title: "Memory Game",
@@ -42,7 +50,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/memory-game/",
       codeLink: "https://github.com/Babalwa01/memory-game",
       imgUrl: images.about02,
-      tags: ["Website", "All"],
+      tags: ["Web App", "All"],
     },
     {
       title: "Tic Tac Toe Game",
@@ -51,7 +59,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/tic-tac-toe/",
       codeLink: "https://github.com/Babalwa01/tic-tac-toe",
       imgUrl: images.about03,
-      tags: ["Website", "All"],
+      tags: ["Web App", "All"],
     },
   ];
   const [works, setWorks] = useState([]);
@@ -86,14 +94,7 @@ const Work = () => {
         My Creative <span>Portfolio</span>
       </h2>
       <div className="app__work-filter">
-        {[
-          "UI Design",
-          "Web App",
-          "Website",
-          "React JS",
-          "Open Source",
-          "All",
-        ].map((item, index) => (
+        {["Web App", "Website", "All"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
