@@ -21,7 +21,7 @@ const Work = () => {
       title: "Restaurant Landing page",
       description:
         "(In progress): A restaurant landing page which I am currently building using React",
-      projectLink: "https://babalwambolekwa.netlify.app/",
+      projectLink: "https://babalwa01.github.io/grooveavenue/",
       codeLink: "https://github.com/Babalwa01/grooveavenue",
       imgUrl: images.work02,
       tags: ["Website", "All"],
