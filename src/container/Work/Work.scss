@@ -121,6 +121,12 @@
       color: var(--white-color);
     }
   }
+
+  .app__work-hover_github {
+    @media screen and (max-width: 819px) {
+     display: none;
+    }
+  }
 }
 
 .app__work-content {
