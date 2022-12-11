@@ -10,8 +10,8 @@ const Skills = () => {
     {
       name: "Junior Frontend Developer",
       company: "ClearScore",
-      description: "Enhance and maintain the ClearScore website and the webapp",
-      time: "May 2022 - Present",
+      description: "Enhanced and maintained the ClearScore website and the webapp",
+      time: "May 2022 - November 2022",
     },
     {
       name: "Junior Web Developer",
