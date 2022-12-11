@@ -15,7 +15,7 @@ const Work = () => {
       projectLink: "https://babalwambolekwa.netlify.app/",
       codeLink: "https://github.com/Babalwa01/babalwa-mbolekwa",
       imgUrl: images.work01,
-      tags: ["Website", "All"],
+      tags: ["React", "All"],
     },
     {
       title: "Restaurant Landing page",
@@ -23,7 +23,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/grooveavenue/",
       codeLink: "https://github.com/Babalwa01/grooveavenue",
       imgUrl: images.work02,
-      tags: ["Website", "All"],
+      tags: ["React", "All"],
     },
     {
       title: "My Portfolio Website v1",
@@ -32,7 +32,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/",
       codeLink: "https://github.com/Babalwa01/Babalwa01.github.io",
       imgUrl: images.work01,
-      tags: ["Website", "All"],
+      tags: ["HTML, CSS, JS", "All"],
     },
     {
       title: "COVID-19 Tracker",
@@ -41,7 +41,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/covid19-statistics/",
       codeLink: "https://github.com/Babalwa01/covid19-statistics",
       imgUrl: images.work03,
-      tags: ["Web App", "All"],
+      tags: ["React", "All"],
     },
     {
       title: "Memory Game",
@@ -49,7 +49,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/memory-game/",
       codeLink: "https://github.com/Babalwa01/memory-game",
       imgUrl: images.about02,
-      tags: ["Web App", "All"],
+      tags: ["HTML, CSS, JS", "All"],
     },
     {
       title: "Tic Tac Toe Game",
@@ -58,7 +58,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/tic-tac-toe/",
       codeLink: "https://github.com/Babalwa01/tic-tac-toe",
       imgUrl: images.about03,
-      tags: ["Web App", "All"],
+      tags: ["HTML, CSS, JS", "All"],
     },
   ];
   const [works, setWorks] = useState([]);
@@ -93,7 +93,7 @@ const Work = () => {
         My Creative <span>Portfolio</span>
       </h2>
       <div className="app__work-filter">
-        {["Web App", "Website", "All"].map((item, index) => (
+        {["HTML, CSS, JS", "React", "All"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}

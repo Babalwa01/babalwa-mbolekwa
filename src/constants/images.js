@@ -35,7 +35,6 @@ import work03 from "../assets/work03.jpg";
 
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
-import logo from "../assets/logo.png";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -44,7 +43,6 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
-import babalwa from "../assets/babalwa.png";
 import babalwa01 from "../assets/babalwa01.png";
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -80,7 +78,6 @@ export default {
   about04,
   profile,
   circle,
-  logo,
   adidas,
   amazon,
   asus,
@@ -88,7 +85,6 @@ export default {
   nb,
   skype,
   spotify,
-  babalwa,
   babalwa01,
   work01,
   work02,
