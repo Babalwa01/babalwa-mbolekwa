@@ -8,6 +8,12 @@ import "./Skills.scss";
 const Skills = () => {
   const experienceData = [
     {
+      name: "Associate Engineer",
+      company: "WorldRemit",
+      description: "Fullstack Development",
+      time: "January 2023 - Present",
+    },
+    {
       name: "Junior Frontend Developer",
       company: "ClearScore",
       description: "Enhanced and maintained the ClearScore website and the webapp",
