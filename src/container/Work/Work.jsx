@@ -9,9 +9,9 @@ import "./Work.scss";
 const Work = () => {
   const worksData = [
     {
-      title: "My Portfolio Website v2",
+      title: "My Portfolio Website",
       description:
-        "A website about my skills, work and experience in Frontend Development which I built using React",
+        "A website about my skills and work experience in Web Development, which I built using React",
       projectLink: "https://babalwambolekwa.netlify.app/",
       codeLink: "https://github.com/Babalwa01/babalwa-mbolekwa",
       imgUrl: images.work01,
@@ -19,20 +19,11 @@ const Work = () => {
     },
     {
       title: "Restaurant Landing page",
-      description: "A restaurant landing page which I built using React",
+      description: "A restaurant website with content about food and entertainment, which I built using React",
       projectLink: "https://babalwa01.github.io/grooveavenue/",
       codeLink: "https://github.com/Babalwa01/grooveavenue",
       imgUrl: images.work02,
       tags: ["React", "All"],
-    },
-    {
-      title: "My Portfolio Website v1",
-      description:
-        "A beginner website about my skills, work and experience which I built using HTML, CSS & JavaScript",
-      projectLink: "https://babalwa01.github.io/",
-      codeLink: "https://github.com/Babalwa01/Babalwa01.github.io",
-      imgUrl: images.work01,
-      tags: ["HTML, CSS, JS", "All"],
     },
     {
       title: "COVID-19 Tracker",

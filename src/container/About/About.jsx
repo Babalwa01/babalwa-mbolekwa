@@ -18,7 +18,7 @@ const abouts = [
     imgUrl: images.about02,
   },
   {
-    title: "Open Source Contribution",
+    title: "Open Source",
     description:
       "I enjoy contributing to open source projects and sharing knowledge",
     imgUrl: images.about03,
