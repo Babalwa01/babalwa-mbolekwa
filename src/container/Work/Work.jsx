@@ -26,11 +26,10 @@ const Work = () => {
       tags: ["React", "All"],
     },
     {
-      title: "COVID-19 Tracker",
-      description:
-        "An app showing global COVID-19 statistics built with React, ChartJS, Material UI and RapidAPI",
-      projectLink: "https://babalwa01.github.io/covid19-statistics/",
-      codeLink: "https://github.com/Babalwa01/covid19-statistics",
+      title: "YouTube Clone App",
+      description: "Currently building a responsive YouTube clone app using React, Material UI and RapidAPI",
+      projectLink: "https://babalwa01.github.io/youtube-clone/",
+      codeLink: "https://github.com/Babalwa01/youtube-clone",
       imgUrl: images.work03,
       tags: ["React", "All"],
     },
