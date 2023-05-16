@@ -9,7 +9,7 @@ const Skills = () => {
   const experienceData = [
     {
       name: "Associate Engineer",
-      company: "WorldRemit",
+      company: "Zepz",
       description: "Fullstack Development",
       time: "January 2023 - Present",
     },
@@ -20,7 +20,7 @@ const Skills = () => {
       time: "May 2022 - November 2022",
     },
     {
-      name: "Junior Web Developer",
+      name: "Junior Web Development Facilitator",
       company: "Umuzi",
       description:
         "Enhanced and maintained a webapp learning platform called Tilde",
