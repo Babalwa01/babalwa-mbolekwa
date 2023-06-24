@@ -29,7 +29,7 @@ const Work = () => {
     {
       title: "YouTube Clone App",
       description:
-        "A responsive YouTube clone app built using React, Material UI and the YouTube v3 API",
+        "A responsive YouTube clone app which I built using React, Material UI and the YouTubev3 API",
       projectLink: "https://babalwayoutubeclone.netlify.app/",
       codeLink: "https://github.com/Babalwa01/youtube-clone",
       imgUrl: images.work03,
