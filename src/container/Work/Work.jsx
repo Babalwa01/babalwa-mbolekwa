@@ -19,7 +19,8 @@ const Work = () => {
     },
     {
       title: "Restaurant Landing page",
-      description: "A restaurant website with content about food and entertainment, which I built using React",
+      description:
+        "A restaurant website with content about food and entertainment, which I built using React",
       projectLink: "https://babalwa01.github.io/grooveavenue/",
       codeLink: "https://github.com/Babalwa01/grooveavenue",
       imgUrl: images.work02,
@@ -27,7 +28,8 @@ const Work = () => {
     },
     {
       title: "YouTube Clone App",
-      description: "Currently building a responsive web app using React, Material UI and the YouTube v3 API",
+      description:
+        "A responsive YouTube clone app built using React, Material UI and the YouTube v3 API",
       projectLink: "https://babalwayoutubeclone.netlify.app/",
       codeLink: "https://github.com/Babalwa01/youtube-clone",
       imgUrl: images.work03,
@@ -123,7 +125,12 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.codeLink} target="_blank" rel="noreferrer" className="app__work-hover_github">
+                <a
+                  href={work.codeLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="app__work-hover_github"
+                >
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
