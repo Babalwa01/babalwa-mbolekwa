@@ -8,7 +8,7 @@ import "./Skills.scss";
 const Skills = () => {
   const experienceData = [
     {
-      name: "Associate Engineer",
+      name: "Associate Frontend Engineer",
       company: "Zepz",
       description: "Fullstack Development",
       time: "January 2023 - Present",
