@@ -49,6 +49,53 @@
     }
   }
 
+  .social-media {
+    min-width: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    flex-direction: row;
+
+    div {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--white-color);
+      margin: 0.25rem 0;
+      border: 1px solid var(--lightGray-color);
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      transition: all 0.3s ease-in-out;
+  
+      svg {
+        width: 15px;
+        height: 15px;
+        color: var(--gray-color);
+      }
+  
+      &:hover {
+        background-color: var(--secondary-color);
+        border-color: var(--secondary-color);
+  
+        svg {
+          color: var(--white-color);
+        }
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     width: 100%;
   }
@@ -56,6 +103,10 @@
 
 .app__footer-cards .app__footer-card {
   background-color: #f7fafc;
+}
+
+.social-media {
+  background-color: transparent;
 }
 
 .app__footer-form {
