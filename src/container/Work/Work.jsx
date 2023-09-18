@@ -15,7 +15,16 @@ const Work = () => {
       projectLink: "https://babalwambolekwa.netlify.app/",
       codeLink: "https://github.com/Babalwa01/babalwa-mbolekwa",
       imgUrl: images.work01,
-      tags: ["React", "All"],
+      tags: ["React/TypeScript", "All"],
+    },
+    {
+      title: "Bayathandwa Day Care Website",
+      description:
+        "Currently building the Bayathandwa Day Care website using TypeScript",
+      projectLink: "https://bayathandwadaycare.netlify.app/",
+      codeLink: "https://github.com/Babalwa01/bayathandwa-day-care",
+      imgUrl: images.daycare,
+      tags: ["React/TypeScript", "All"],
     },
     {
       title: "Restaurant Landing page",
@@ -24,7 +33,7 @@ const Work = () => {
       projectLink: "https://babalwa01.github.io/grooveavenue/",
       codeLink: "https://github.com/Babalwa01/grooveavenue",
       imgUrl: images.work02,
-      tags: ["React", "All"],
+      tags: ["React/TypeScript", "All"],
     },
     {
       title: "YouTube Clone App",
@@ -33,7 +42,7 @@ const Work = () => {
       projectLink: "https://babalwayoutubeclone.netlify.app/",
       codeLink: "https://github.com/Babalwa01/youtube-clone",
       imgUrl: images.work03,
-      tags: ["React", "All"],
+      tags: ["React/TypeScript", "All"],
     },
     {
       title: "Memory Game",
@@ -85,7 +94,7 @@ const Work = () => {
         My Creative <span>Portfolio</span>
       </h2>
       <div className="app__work-filter">
-        {["HTML, CSS, JS", "React", "All"].map((item, index) => (
+        {["HTML, CSS, JS", "React/TypeScript", "All"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}

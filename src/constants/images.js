@@ -44,6 +44,7 @@ import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import babalwa01 from "../assets/babalwa01.png";
+import daycare from "../assets/daycare.jpg";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -89,4 +90,5 @@ export default {
   work01,
   work02,
   work03,
+  daycare
 };
