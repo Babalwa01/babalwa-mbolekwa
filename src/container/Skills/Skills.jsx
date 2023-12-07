@@ -8,10 +8,16 @@ import "./Skills.scss";
 const Skills = () => {
   const experienceData = [
     {
-      name: "Associate Frontend Engineer",
+      name: "Web Developer",
+      company: "Rentoza",
+      description: "Web Development",
+      time: "January 2024 - Present",
+    },
+    {
+      name: "Associate Engineer",
       company: "Zepz",
       description: "Fullstack Development",
-      time: "January 2023 - Present",
+      time: "January 2023 - December 2023",
     },
     {
       name: "Junior Frontend Developer",
@@ -88,16 +94,16 @@ const Skills = () => {
       icon: images.jira,
     },
     {
+      name: "Confluence",
+      icon: images.confluence,
+    },
+    {
       name: "Slack",
       icon: images.slack,
     },
     {
       name: "Zoom",
       icon: images.zoom,
-    },
-    {
-      name: "MacOS",
-      icon: images.macOS,
     },
   ];
   const [experience, setExperience] = useState([]);

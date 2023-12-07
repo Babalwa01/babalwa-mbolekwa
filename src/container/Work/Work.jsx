@@ -20,8 +20,8 @@ const Work = () => {
     {
       title: "Bayathandwa Day Care Website",
       description:
-        "Currently building the Bayathandwa Day Care website using TypeScript",
-      projectLink: "https://bayathandwadaycare.netlify.app/",
+        "Non-Profit Organization Bayathandwa Day Care website, built using TypeScript and React",
+      projectLink: "https://bayathandwadaycare.org/",
       codeLink: "https://github.com/Babalwa01/bayathandwa-day-care",
       imgUrl: images.daycare,
       tags: ["React/TypeScript", "All"],
@@ -36,6 +36,14 @@ const Work = () => {
       tags: ["React/TypeScript", "All"],
     },
     {
+      title: "Memory Game",
+      description: "A cool memory game built with HTML, CSS and JavaScript",
+      projectLink: "https://babalwa01.github.io/memory-game/",
+      codeLink: "https://github.com/Babalwa01/memory-game",
+      imgUrl: images.about02,
+      tags: ["HTML, CSS, JS", "All"],
+    },
+    {
       title: "YouTube Clone App",
       description:
         "A responsive YouTube clone app which I built using React, Material UI and the YouTubev3 API",
@@ -43,14 +51,6 @@ const Work = () => {
       codeLink: "https://github.com/Babalwa01/youtube-clone",
       imgUrl: images.work03,
       tags: ["React/TypeScript", "All"],
-    },
-    {
-      title: "Memory Game",
-      description: "A cool memory game built with HTML, CSS and JavaScript",
-      projectLink: "https://babalwa01.github.io/memory-game/",
-      codeLink: "https://github.com/Babalwa01/memory-game",
-      imgUrl: images.about02,
-      tags: ["HTML, CSS, JS", "All"],
     },
     {
       title: "Tic Tac Toe Game",
