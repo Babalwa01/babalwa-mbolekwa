@@ -22,8 +22,8 @@ import slack from "../assets/slack.png";
 import jira from "../assets/jira.png";
 import confluence from "../assets/confluence.png";
 import notion from "../assets/notion.png";
-import zoom from "../assets/zoom.png";
 import macOS from "../assets/macOS.png";
+import github from "../assets/github.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -73,7 +73,6 @@ export default {
   jira,
   confluence,
   notion,
-  zoom,
   macOS,
   about01,
   about02,
@@ -92,5 +91,6 @@ export default {
   work01,
   work02,
   work03,
-  daycare
+  daycare,
+  github
 };

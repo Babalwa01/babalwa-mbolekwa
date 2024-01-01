@@ -26,11 +26,18 @@ const Skills = () => {
       time: "May 2022 - November 2022",
     },
     {
-      name: "Junior Web Development Facilitator",
+      name: "Junior Ed-Tech Platform Developer",
       company: "Umuzi",
       description:
         "Enhanced and maintained a webapp learning platform called Tilde",
-      time: "September 2020 - May 2022",
+      time: "June 2021 - April 2022",
+    },
+    {
+      name: "Web Development Bootcamp Learner",
+      company: "Umuzi",
+      description:
+        "Web Development Learnership and Training",
+      time: "September 2020 - May 2021",
     },
     {
       name: "Space Technology Intern",
@@ -64,6 +71,10 @@ const Skills = () => {
     {
       name: "Git",
       icon: images.git,
+    },
+    {
+      name: "Github",
+      icon: images.github,
     },
     {
       name: "Sass",
@@ -100,10 +111,6 @@ const Skills = () => {
     {
       name: "Slack",
       icon: images.slack,
-    },
-    {
-      name: "Zoom",
-      icon: images.zoom,
     },
   ];
   const [experience, setExperience] = useState([]);
