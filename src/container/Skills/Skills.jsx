@@ -69,6 +69,10 @@ const Skills = () => {
       icon: images.typescript,
     },
     {
+      name: "NPM",
+      icon: images.npm,
+    },
+    {
       name: "Git",
       icon: images.git,
     },
@@ -81,16 +85,16 @@ const Skills = () => {
       icon: images.sass,
     },
     {
-      name: "Figma",
-      icon: images.figma,
-    },
-    {
       name: "Material UI",
       icon: images.mu5,
     },
     {
       name: "Storybook",
       icon: images.storybook,
+    },
+    {
+      name: "Figma",
+      icon: images.figma,
     },
     {
       name: "APIs",
@@ -107,10 +111,6 @@ const Skills = () => {
     {
       name: "Confluence",
       icon: images.confluence,
-    },
-    {
-      name: "Slack",
-      icon: images.slack,
     },
   ];
   const [experience, setExperience] = useState([]);

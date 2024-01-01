@@ -24,6 +24,7 @@ import confluence from "../assets/confluence.png";
 import notion from "../assets/notion.png";
 import macOS from "../assets/macOS.png";
 import github from "../assets/github.png";
+import npm from "../assets/npm.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -92,5 +93,6 @@ export default {
   work02,
   work03,
   daycare,
-  github
+  github,
+  npm,
 };
