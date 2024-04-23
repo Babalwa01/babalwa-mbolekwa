@@ -25,6 +25,7 @@ import notion from "../assets/notion.png";
 import macOS from "../assets/macOS.png";
 import github from "../assets/github.png";
 import npm from "../assets/npm.png";
+import tailwindcss from "../assets/tailwindcss.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -47,6 +48,7 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import babalwa01 from "../assets/babalwa01.png";
 import daycare from "../assets/daycare.jpg";
+import shopify from "../assets/shopify.png";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -95,4 +97,6 @@ export default {
   daycare,
   github,
   npm,
+  tailwindcss,
+  shopify,
 };

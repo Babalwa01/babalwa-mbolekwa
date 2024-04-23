@@ -93,12 +93,24 @@ const Skills = () => {
       icon: images.storybook,
     },
     {
+      name: "Tailwind CSS",
+      icon: images.tailwindcss,
+    },
+    {
       name: "Figma",
       icon: images.figma,
     },
     {
+      name: "Python",
+      icon: images.python,
+    },
+    {
       name: "APIs",
       icon: images.api,
+    },
+    {
+      name: "Shopify",
+      icon: images.shopify,
     },
     {
       name: "Notion",
