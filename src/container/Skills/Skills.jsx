@@ -81,6 +81,10 @@ const Skills = () => {
       icon: images.github,
     },
     {
+      name: "jQuery",
+      icon: images.jquery,
+    },
+    {
       name: "Sass",
       icon: images.sass,
     },
