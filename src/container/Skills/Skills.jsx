@@ -8,10 +8,16 @@ import "./Skills.scss";
 const Skills = () => {
   const experienceData = [
     {
+      name: "Intermediate Fullstack Engineer",
+      company: "Rentoza",
+      description: "Fullstack Development",
+      time: "March 2025 - Present",
+    },
+    {
       name: "Web Developer",
       company: "Rentoza",
       description: "Web Development",
-      time: "January 2024 - Present",
+      time: "January 2024 - February 2025",
     },
     {
       name: "Associate Engineer",
